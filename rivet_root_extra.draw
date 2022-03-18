@@ -1,0 +1,37 @@
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title ALICE_2021_I1891385/<fname> tx_size=0.04
+#legend 0.67,0.681,0.915,0.88,, title=<hname>
+#logy 1
+#miny 1e-2
+##maxy 10
+
+<sdir10>./new_projections.root : rmatrix_10_124_old_<hname> : hist : title=rmatrix 'oldF',, scale=norm_self_width
+<sdir10>./new_projections.root : rmatrix_10_124_new_<hname> : hist : title=rmatrix 'newF',, scale=norm_self_width
+
+<sdir20>./new_projections.root : rmatrix_20_78_old_<hname> : hist : title=rmatrix 'oldF',, scale=norm_self_width
+<sdir20>./new_projections.root : rmatrix_20_78_new_<hname> : hist : title=rmatrix 'newF',, scale=norm_self_width
+
+<sdir10>./fromJames/rivet-plots-10/ALICE_2021_I1891385/<fname>.root 		:Rivet10 :p -k: title=Rivet10
+<sdir20>./fromJames/rivet-plots-20/ALICE_2021_I1891385/<fname>.root 		:Rivet20 :p -k : title=Rivet20
+
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title ALICE_2021_I1891385/<fname> tx_size=0.04
+#legend 0.67,0.681,0.915,0.88,, title=<hname>
+#logy 1
+#miny 1e-2
+##maxy 10
+
+<sdir10>./new_projections.root : hepmc_10_124old_<hname> : hist : title=herwig 'oldBins',, scale=norm_self_width
+<sdir10>./new_projections.root : hepmc_10_124new_<hname> : hist : title=herwig 'newBins',, scale=norm_self_width
+
+<sdir20>./new_projections.root : hepmc_20_78old_<hname> : hist : title=herwig 'oldBins',, scale=norm_self_width
+<sdir20>./new_projections.root : hepmc_20_78new_<hname> : hist : title=herwig 'newBins',, scale=norm_self_width
+
+<sdir10>./fromJames/rivet-plots-10/ALICE_2021_I1891385/<fname>.root 		:Rivet10 :p -k: title=Rivet10
+<sdir20>./fromJames/rivet-plots-20/ALICE_2021_I1891385/<fname>.root 		:Rivet20 :p -k : title=Rivet20

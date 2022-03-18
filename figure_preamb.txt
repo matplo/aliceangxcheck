@@ -1,0 +1,11 @@
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title: smart group
+#legend 0.199,0.494,0.92,0.87, tx_size= 0.035
+#y ratio=rmatrix/hepmc
+#x #lambda
+#miny 0
+#maxy 5
+#line 0,1,0.8,1,1,9,3

@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# other formats
+*.root
+*.pdf
+HEPData-1626994645-v1-csv/
+HEPData-1626994645-v1-root/
+HEPData-1626994645-v1/
+fromEzra/
+fromJames/
+
 # C extensions
 *.so
 

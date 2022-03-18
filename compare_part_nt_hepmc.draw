@@ -1,0 +1,139 @@
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend 0.7,0.674,0.943,0.873,
+#logy 1
+#logx 1
+#y counts
+#x p_{T} (GeV/c)
+/Users/ploskon/devel/sandbox/alice/angularities/hepmc_ptetaphi_<fnumber>.root 		:perp 	:p +m50 	: title=parts hepmc
+/Users/ploskon/devel/sandbox/alice/angularities/nt_ptetaphi_<fnumber>.root 				:perp 	:hist -k +l1 +f1001 +a20	: title=parts ntuple
+/Users/ploskon/devel/sandbox/alice/angularities/hepmc_ptetaphi_<fnumber>.root 		:j_perp :p +m50 : title=jets hepmc
+/Users/ploskon/devel/sandbox/alice/angularities/nt_ptetaphi_<fnumber>.root 				:j_perp :hist -k +l1 +f1001 +a20  : title=jets ntuple
+
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend 0.7,0.674,0.943,0.873,
+#logy 1
+#y counts
+#x #varphi
+/Users/ploskon/devel/sandbox/alice/angularities/hepmc_ptetaphi_<fnumber>.root 		:phi 	:p +m50 	: title=parts hepmc
+/Users/ploskon/devel/sandbox/alice/angularities/nt_ptetaphi_<fnumber>.root 				:phi 	:hist -k +l1 +f1001 +a20	: title=parts ntuple
+/Users/ploskon/devel/sandbox/alice/angularities/hepmc_ptetaphi_<fnumber>.root 		:j_phi :p +m50 : title=jets hepmc
+/Users/ploskon/devel/sandbox/alice/angularities/nt_ptetaphi_<fnumber>.root 				:j_phi :hist -k +l1 +f1001 +a20  : title=jets ntuple
+
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend 0.7,0.674,0.943,0.873,
+#logy 1
+#y counts
+#x #eta
+/Users/ploskon/devel/sandbox/alice/angularities/hepmc_ptetaphi_<fnumber>.root 		:eta 	:p +m50 	: title=parts hepmc
+/Users/ploskon/devel/sandbox/alice/angularities/nt_ptetaphi_<fnumber>.root 				:eta 	:hist -k +l1 +f1001 +a20	: title=parts ntuple
+/Users/ploskon/devel/sandbox/alice/angularities/hepmc_ptetaphi_<fnumber>.root 		:j_eta :p +m50 : title=jets hepmc
+/Users/ploskon/devel/sandbox/alice/angularities/nt_ptetaphi_<fnumber>.root 				:j_eta :hist -k +l1 +f1001 +a20  : title=jets ntuple
+
+
+
+
+#RATIOS
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend pos=ur
+#legend 0.7,0.674,0.943,0.873,
+#logy 0
+#logx 1
+#y hepmc / ntuple
+#x p_{T} (GeV/c)
+#miny 0.8
+#maxy 1.2
+#/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:perp_div_perp :p  			: title=parts divH
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:perp_ratio_gr :p  			: title=parts
+
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend pos=ur
+#legend 0.7,0.674,0.943,0.873,
+#logy 0
+#logx 1
+#y hepmc / ntuple
+#x p_{T} (GeV/c)
+#miny 0.8
+#maxy 1.2
+#/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:j_perp_div_j_perp :p  	: title=jets divH
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:j_perp_ratio_gr :p  		: title=jets m_{parts}=actual
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>_m0.root 		:j_perp_ratio_gr :l  		: title=jets m_{parts}=0
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>_mpion.root 		:j_perp_ratio_gr :p +p21  		: title=jets m_{parts}=pion
+
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend 0.7,0.674,0.943,0.873,
+#logy 0
+#y hepmc / ntuple
+#x #varphi
+#miny 0.8
+#maxy 1.2
+#/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:phi_div_phi :p  			: title=parts divH
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:phi_ratio_gr :p  		: title=parts
+
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend 0.7,0.674,0.943,0.873,
+#logy 0
+#y hepmc / ntuple
+#x #varphi
+#miny 0.8
+#maxy 1.2
+#/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:j_phi_div_j_phi :p  	: title=jets divH
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:j_phi_ratio_gr :p  	: title=jets m_{parts}=actual
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>_m0.root 		:j_phi_ratio_gr :l  		: title=jets m_{parts}=0
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>_mpion.root 		:j_phi_ratio_gr :p +p21  		: title=jets m_{parts}=pion
+
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend 0.7,0.674,0.943,0.873,
+#logy 0
+#y hepmc / ntuple
+#x #eta
+#miny 0.8
+#maxy 1.2
+#/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:eta_div_eta :p  			: title=parts divH
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:eta_ratio_gr :p  		: title=parts
+
+#figure
+#geom 500x500
+#date
+#title <file>
+#legend 0.7,0.674,0.943,0.873,
+#logy 0
+#y hepmc / ntuple
+#x #eta
+#miny 0.8
+#maxy 1.2
+#/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:j_eta_div_j_eta :p  	: title=jets divH
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>.root 		:j_eta_ratio_gr :p  	: title=jets m_{parts}=actual
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>_m0.root 		:j_eta_ratio_gr :l  		: title=jets m_{parts}=0
+/Users/ploskon/devel/sandbox/alice/angularities/ratio_file_<fnumber>_mpion.root 		:j_eta_ratio_gr :p +p21  		: title=jets m_{parts}=pion

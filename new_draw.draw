@@ -1,0 +1,64 @@
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title: smart group
+#legend 0.199,0.494,0.92,0.87, tx_size= 0.035
+#y ratio=rmatrix/hepmc
+#x #lambda
+#miny 0
+#maxy 5
+#line 0,1,0.8,1,1,9,3
+new_ratios.root : rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_1_SD_zcut02_B0 : p : title=rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_1_SD_zcut02_B0
+new_ratios.root : rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_1.5_SD_zcut02_B0 : p : title=rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_1.5_SD_zcut02_B0
+new_ratios.root : rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_2 : p : title=rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_2
+new_ratios.root : rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_2_SD_zcut02_B0 : p : title=rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.2_2_SD_zcut02_B0
+new_ratios.root : rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.4_1.5_SD_zcut02_B0 : p : title=rmatrix__20_78_old_20_40_hAng_JetPt_tru_R0.4_1.5_SD_zcut02_B0
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title: smart group
+#legend 0.199,0.494,0.92,0.87, tx_size= 0.035
+#y ratio=rmatrix/hepmc
+#x #lambda
+#miny 0
+#maxy 5
+#line 0,1,0.8,1,1,9,3
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_1_SD_zcut02_B0 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_1_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_1.5_SD_zcut02_B0 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_1.5_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_2 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_2
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_2_SD_zcut02_B0 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_2_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_3 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_3
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_3_SD_zcut02_B0 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.2_3_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.4_1_SD_zcut02_B0 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.4_1_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.4_1.5_SD_zcut02_B0 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.4_1.5_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.4_3 : p : title=rmatrix__10_124_old_20_40_hAng_JetPt_tru_R0.4_3
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title: smart group
+#legend 0.199,0.494,0.92,0.87, tx_size= 0.035
+#y ratio=rmatrix/hepmc
+#x #lambda
+#miny 0
+#maxy 5
+#line 0,1,0.8,1,1,9,3
+new_ratios.root : rmatrix__20_78_old_40_60_hAng_JetPt_tru_R0.2_1_SD_zcut02_B0 : p : title=rmatrix__20_78_old_40_60_hAng_JetPt_tru_R0.2_1_SD_zcut02_B0
+#-----------------------
+#figure
+#geom 500x500
+#date
+#title: smart group
+#legend 0.199,0.494,0.92,0.87, tx_size= 0.035
+#y ratio=rmatrix/hepmc
+#x #lambda
+#miny 0
+#maxy 5
+#line 0,1,0.8,1,1,9,3
+new_ratios.root : rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_1.5_SD_zcut02_B0 : p : title=rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_1.5_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_2_SD_zcut02_B0 : p : title=rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_2_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_3 : p : title=rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_3
+new_ratios.root : rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_3_SD_zcut02_B0 : p : title=rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.2_3_SD_zcut02_B0
+new_ratios.root : rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.4_1.5_SD_zcut02_B0 : p : title=rmatrix__10_124_old_40_60_hAng_JetPt_tru_R0.4_1.5_SD_zcut02_B0

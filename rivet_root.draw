@@ -1,0 +1,22 @@
+#-----------------------
+#figure
+#geom 500x500
+#date
+<sdir10>#title ALICE_2021_I1891385/<fname> bin-10-124 tx_size=0.04
+<sdir20>#title ALICE_2021_I1891385/<fname> bin-20-78 tx_size=0.04
+#legend 0.57,0.681,0.915,0.88,, title=<hname>
+#logy 1
+#miny 1e-2
+##maxy 10
+
+<sdir10>./new_projections.root : rmatrix_10_124_new_<hname> : hist : title=rmatrix,, scale=norm_self_width
+<sdir20>./new_projections.root : rmatrix_20_78_new_<hname> : hist : title=rmatrix,, scale=norm_self_width
+
+<sdir10>./new_projections.root : hepmc_10_124new_<hname> : hist +f1001 +a15: title=hepmc,, scale=norm_self_width
+<sdir20>./new_projections.root : hepmc_20_78new_<hname> : hist +f1001 +a15: title=hepmc,, scale=norm_self_width
+
+<sdir10>./fromJames/rivet-plots-10/ALICE_2021_I1891385/<fname>.root 		:Rivet10 :p : title=Rivet10
+<sdir10>./fromJames/rivet-plots-10/ALICE_2021_I1891385/<fname>.root 		:Data :p  : title=Data
+
+<sdir20>./fromJames/rivet-plots-20/ALICE_2021_I1891385/<fname>.root 		:Rivet20 :p : title=Rivet20
+<sdir20>./fromJames/rivet-plots-20/ALICE_2021_I1891385/<fname>.root 		:Data :p  : title=Data
